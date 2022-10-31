@@ -1,0 +1,35 @@
+<section [ngClass]="{'lightBack':!theme.getTheme()}">
+    <div class="left">
+        <div class="bigimg" [ngClass]="{'imgBackL':!theme.getTheme()}">
+            <img src="https://images.unsplash.com/flagged/photo-1574164908900-6275ca361157?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                alt="">
+        </div>
+    </div>
+    <div class="right">
+        <div class="title">
+            <h1 [ngClass]="{'lightFont':!theme.getTheme()}">Your <span>pathway</span> to Future Investment</h1>
+            <p [ngClass]="{'lightFontP':!theme.getTheme()}" class="titleP">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Ut eu, mollis aenean sit dictum
+                tincidunt. Ut
+                arcu,
+                suscipit ac etLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur</p>
+        </div>
+        <div class="desc">
+            <div class="descchilds">
+                <p [ngClass]="{'imgBackL':!theme.getTheme(),
+                'lightFont':!theme.getTheme()}" class="descchildsP">What is FarmVest?<i
+                        class="ri-arrow-down-s-line"></i></p>
+            </div>
+            <div class="descchilds">
+                <p [ngClass]="{'imgBackL':!theme.getTheme(),
+                'lightFont':!theme.getTheme()}" class="descchildsP">How safe is FarmVest?<i
+                        class="ri-arrow-down-s-line"></i></p>
+            </div>
+            <div class="descchilds">
+                <p [ngClass]="{'imgBackL':!theme.getTheme(),
+                'lightFont':!theme.getTheme()}" class="descchildsP">What do I gain from using
+                    FarmVest?<i class="ri-arrow-down-s-line"></i></p>
+            </div>
+        </div>
+    </div>
+</section>

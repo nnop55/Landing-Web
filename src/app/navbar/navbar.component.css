@@ -1,0 +1,97 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 130px;
+    top: 20px;
+    position: fixed;
+    z-index: 20;
+    gap: 370px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #313c42;
+    box-shadow: 0px 0px 5px black;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+h1 {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+li a:hover {
+    color: rgb(92, 180, 70);
+}
+
+.active {
+    color: rgb(92, 180, 70)
+}
+
+button:first-child {
+    padding: 12px 28px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:last-child {
+    padding: 13.2px 8px;
+    background-color: #23b123;
+    border-radius: 5px;
+    border: #23b123;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:first-child:hover {
+    background-color: #23b123;
+}
+
+button:last-child:hover {
+    background: transparent;
+}
+
+.right {
+    display: flex;
+    gap: 10px;
+}
+
+i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.d-none {
+    visibility: hidden;
+}
+
+/* light NAVBAR */
+
+.lightNav {
+    background-color: rgb(229, 229, 229);
+}
+
+.lightColor {
+    color: black;
+}

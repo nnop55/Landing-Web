@@ -1,0 +1,21 @@
+<section class="slider" [ngClass]="{'lightBack':!theme.getTheme()}">
+    <div class="left">
+        <i [ngClass]="{'lightFont':!theme.getTheme()}" class="ri-arrow-left-circle-fill" (click)="previousImage()"></i>
+    </div>
+    <div class="middle">
+        <img [src]="sliderData[imgIndex].url">
+    </div>
+    <div class="right">
+        <i [ngClass]="{'lightFont':!theme.getTheme()}" class="ri-arrow-right-circle-fill" (click)="nextImage()"></i>
+    </div>
+</section>
+<article>
+    <div class="text">
+        <p [ngClass]="{'lightFontP':!theme.getTheme(),
+        'lightBack':!theme.getTheme()}" class="desc">Farmvest Inc. is dedicated to renewable resources
+            such as farmland and timberland. The firm provides
+            consulting services to assist investors with natural resource real estate asset allocation, policies,
+            strategic planning, due diligence, manager recommendations, performance reporting, and investment
+            monitoring.</p>
+    </div>
+</article>

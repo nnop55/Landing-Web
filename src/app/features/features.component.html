@@ -1,0 +1,18 @@
+<section [ngClass]="{'lightBack':!theme.getTheme()}">
+    <div class="left">
+        <p class="desc" [ngClass]="{'imgBackL':!theme.getTheme(),'lightFontP':!theme.getTheme()}">
+            Farmvest Inc. makes these asset classes understandable and accelerates learning by those starting out. The
+            goal is to identify investment opportunities that provide high-risk adjusted returns and lower portfolio
+            risk.
+        </p>
+        <div>
+            <button [ngClass]="{'imgBackL': !theme.getTheme(),'lightFontP':!theme.getTheme()}">
+                Start Investing
+            </button>
+        </div>
+    </div>
+    <div class="right">
+        <img src="https://images.unsplash.com/9/fields.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80"
+            alt="">
+    </div>
+</section>

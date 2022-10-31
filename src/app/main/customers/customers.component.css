@@ -1,0 +1,101 @@
+section {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+span {
+    color: #23b123;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+}
+
+.titleP {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(189, 189, 189);
+    width: 420px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.sides div img {
+    width: 200px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.descP {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(189, 189, 189);
+    margin-top: 10px;
+    width: 240px;
+}
+
+.sides div {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px 10px 40px;
+    box-shadow: 0 0 5px black;
+    padding: 20px;
+}
+
+.sides {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: #313c42;
+    border-radius: 30px 10px 40px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-left: 20px;
+
+}
+
+button {
+    padding: 13px 40px;
+    background-color: #23b123;
+    border-radius: 5px;
+    border: #23b123;
+    cursor: pointer;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* light Customers */
+
+.lightBack {
+    background-color: #e5e5e5;
+    transition: 200ms;
+    box-shadow: 0 0 5px #fff;
+}
+
+.lightFont {
+    color: black;
+    transition: 200ms;
+}
+
+.lightFontP {
+    color: #878787;
+}

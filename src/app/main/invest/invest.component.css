@@ -1,0 +1,87 @@
+section {
+    margin-top: 130px;
+    padding: 25px;
+    border-radius: 330px;
+}
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+span {
+    color: #23b123;
+}
+
+.upper {
+    width: 550px;
+    margin: auto;
+}
+
+.center {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(189, 189, 189);
+}
+
+.input {
+    margin-top: 50px;
+    position: relative;
+}
+
+input {
+    padding: 17px;
+    width: 350px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: black;
+}
+
+button {
+    padding: 13.2px 8px;
+    background-color: #23b123;
+    border-radius: 5px;
+    border: #23b123;
+    cursor: pointer;
+    position: absolute;
+    right: 62px;
+    top: 4px;
+}
+
+img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/* light Invest */
+
+.lightBack {
+    background-color: #e5e5e5;
+    transition: 200ms;
+    box-shadow: 0 0 5px #fff;
+}
+
+.lightFont {
+    color: black;
+    transition: 200ms;
+}
+
+.lightFontP {
+    color: #878787;
+}

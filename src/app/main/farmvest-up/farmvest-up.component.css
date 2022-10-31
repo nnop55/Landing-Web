@@ -1,0 +1,108 @@
+section {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 35px;
+    width: 250px;
+}
+
+.title {
+    width: 400px;
+}
+
+.titleP {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(189, 189, 189);
+}
+
+span {
+    color: #23b123;
+}
+
+.desc {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img img {
+    width: 25px;
+    height: 25px;
+    margin: 13px 13px;
+}
+
+.img {
+    background-color: #23b12338;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.descchilds {
+    display: flex;
+    width: 275px;
+    gap: 15px;
+}
+
+.descP {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(189, 189, 189);
+    margin-top: 10px;
+}
+
+.dollar {
+    border-radius: 50%;
+}
+
+.bigimg {
+    background-color: #313c42;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+.bigimg img {
+    width: 400px;
+    height: 270px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+/* light FarmVest */
+
+.lightBack {
+    background-color: #e5e5e5;
+    transition: 200ms;
+    box-shadow: 0 0 5px #fff;
+}
+
+.lightFont {
+    color: black;
+    transition: 200ms;
+}
+
+.lightFontP {
+    color: #878787;
+}
+
+.imgBackL {
+    background-color: #bbdabb;
+}

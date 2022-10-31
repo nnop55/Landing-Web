@@ -1,0 +1,53 @@
+<section [ngClass]="{'lightBack':!theme.getTheme()}">
+    <div class="left">
+        <div class="title">
+            <h1 [ngClass]="{'lightFont':!theme.getTheme()}">Why choose <span>FarmVest</span></h1>
+            <p class="titleP" [ngClass]="{'lightFontP':!theme.getTheme()}">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Ut eu, mollis aenean sit dictum
+                tincidunt. Ut arcu, suscipit ac</p>
+        </div>
+        <div class="desc">
+            <div class="descchilds">
+                <div [ngClass]="{'back':!theme.getTheme()}" class="num">
+                    <h2>1</h2>
+                </div>
+                <div>
+                    <h4 [ngClass]="{'lightFontP':!theme.getTheme()}">Real-time Checkup</h4>
+                </div>
+            </div>
+            <div class="descchilds">
+                <div [ngClass]="{'back':!theme.getTheme()}" class="num">
+                    <h2>2</h2>
+                </div>
+                <div>
+                    <h4 [ngClass]="{'lightFontP':!theme.getTheme()}">Flexibility in Investment</h4>
+                </div>
+            </div>
+            <div class="descchilds">
+                <div [ngClass]="{'back':!theme.getTheme()}" class="num">
+                    <h2>3</h2>
+                </div>
+                <div>
+                    <h4 [ngClass]="{'lightFontP':!theme.getTheme()}">Encrypted and Secured</h4>
+                </div>
+            </div>
+            <div class="descchilds">
+                <div [ngClass]="{'back':!theme.getTheme()}" class="num">
+                    <h2> 4</h2>
+                </div>
+                <div>
+                    <h4 [ngClass]="{'lightFontP':!theme.getTheme()}">Withdraw Anytime</h4>
+                </div>
+            </div>
+            <div class="descchilds">
+                <button>Learn More</button>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="bigimg">
+            <img src="https://images.unsplash.com/photo-1599149535927-36b3fc68a1d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                alt="">
+        </div>
+    </div>
+</section>

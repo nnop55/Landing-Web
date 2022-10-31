@@ -1,0 +1,91 @@
+section {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.bigimg {
+    background-color: #313c42;
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+.bigimg img {
+    width: 320px;
+    height: 270px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 0 5px black;
+}
+
+h1 {
+    font-size: 35px;
+    width: 235px;
+}
+
+.title {
+    width: 400px;
+}
+
+.titleP {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(189, 189, 189);
+}
+
+span {
+    color: #23b123;
+}
+
+.desc {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.descchildsP {
+    background-color: #313c42;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descchilds p i {
+    color: #23b123;
+    cursor: pointer;
+}
+
+/* light PathWay */
+
+.lightBack {
+    background-color: #e5e5e5;
+    transition: 200ms;
+    box-shadow: 0 0 5px #fff;
+}
+
+.lightFont {
+    color: black;
+    transition: 200ms;
+}
+
+.lightFontP {
+    color: #878787;
+}
+
+.imgBackL {
+    background-color: #bbdabb;
+}

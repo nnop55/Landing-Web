@@ -1,0 +1,65 @@
+section {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #313c42;
+    box-shadow: 0px 0px 5px black;
+}
+
+img {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
+button {
+    padding: 12px 28px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: #23b123;
+}
+
+.desc {
+    background-color: #313c42;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    width: 200px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* light FeaTures */
+
+.lightBack {
+    background-color: #e5e5e5;
+    transition: 200ms;
+    box-shadow: 0 0 5px #fff;
+}
+
+.lightFont {
+    color: black;
+    transition: 200ms;
+}
+
+.lightFontP {
+    color: #878787;
+}
+
+.imgBackL {
+    background-color: #bbdabb;
+}

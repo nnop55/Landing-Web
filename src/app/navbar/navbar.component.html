@@ -1,0 +1,32 @@
+<nav [ngClass]="{'lightNav': !theme.getTheme()}">
+    <div class="left">
+        <i [ngClass]="{'lightColor': !theme.getTheme()}" (click)="changeTheme()" [class]="iconToggle"></i>
+    </div>
+    <div class="center">
+        <ul>
+            <li>
+                <a [ngClass]="{'lightColor': !theme.getTheme()}" routerLink="/" [routerLinkActiveOptions]="{exact:true}"
+                    routerLinkActive="active">Home</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a [ngClass]="{'lightColor': !theme.getTheme()}" routerLink="/about" routerLinkActive="active">About</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a [ngClass]="{'lightColor': !theme.getTheme()}" routerLink="/features"
+                    routerLinkActive="active">Features</a>
+            </li>
+        </ul>
+    </div>
+    <div class="right">
+        <button [ngClass]="{'lightColor': !theme.getTheme(),'d-none':!checkStorage.checkStorage}" (click)="logOut()">
+            Log Out
+        </button>
+        <button [ngClass]="{'lightColor': !theme.getTheme()}" routerLink="/createacc">
+            Get Started
+        </button>
+    </div>
+</nav>

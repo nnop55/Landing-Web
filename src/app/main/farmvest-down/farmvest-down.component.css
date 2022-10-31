@@ -1,0 +1,102 @@
+section {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 35px;
+    width: 250px;
+}
+
+.title {
+    width: 400px;
+}
+
+.titleP {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(189, 189, 189);
+}
+
+span {
+    color: #23b123;
+}
+
+.desc {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.num {
+    background-color: #313c42;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+.num h2 {
+    margin-top: 10px;
+}
+
+.descchilds {
+    display: flex;
+    width: 275px;
+    gap: 30px;
+}
+
+h4 {
+    color: rgb(189, 189, 189);
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.dollar {
+    border-radius: 50%;
+}
+
+.bigimg img {
+    width: 450px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+    object-fit: cover;
+}
+
+button {
+    padding: 13px 30px;
+    background-color: #23b123;
+    border-radius: 5px;
+    border: #23b123;
+    cursor: pointer;
+}
+
+/* light FarmVest */
+
+.lightBack {
+    background-color: #e5e5e5;
+    transition: 200ms;
+    box-shadow: 0 0 5px #fff;
+}
+
+.lightFont {
+    color: black;
+    transition: 200ms;
+}
+
+.lightFontP {
+    color: #878787;
+}
+
+.back {
+    background-color: #bbdabb;
+}
