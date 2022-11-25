@@ -30,7 +30,7 @@ export class NavbarComponent implements OnInit {
   }
 
   logOut() {
-    localStorage.clear();
+    localStorage.setItem('authorized', 'false');
     this.router.navigate(['/createacc']);
     this.checkStorage.storageInfo();
   }

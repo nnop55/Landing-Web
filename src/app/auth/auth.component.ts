@@ -43,6 +43,7 @@ export class AuthComponent implements OnInit {
         icon: 'success',
         title: 'Successfully Loged In',
       });
+      localStorage.setItem('authorized', 'true');
       if (this.tmpUrl != undefined) {
         this.router.navigate([this.tmpUrl])
       } else {

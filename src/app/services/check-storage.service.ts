@@ -10,7 +10,7 @@ export class CheckStorageService {
   constructor() { }
 
   storageInfo() {
-    if (localStorage.length != 0) {
+    if (localStorage.getItem('authorized') == 'false') {
       this.checkStorage = true;
     } else {
       this.checkStorage = false;

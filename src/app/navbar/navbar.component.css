@@ -5,7 +5,7 @@ nav {
     top: 20px;
     position: fixed;
     z-index: 20;
-    gap: 370px;
+    gap: 410px;
     padding: 10px;
     border-radius: 10px;
     background: #313c42;
@@ -72,18 +72,13 @@ button:last-child:hover {
     background: transparent;
 }
 
-.right {
-    display: flex;
-    gap: 10px;
-}
-
 i {
     font-size: 30px;
     cursor: pointer;
 }
 
 .d-none {
-    visibility: hidden;
+    display: none;
 }
 
 /* light NAVBAR */

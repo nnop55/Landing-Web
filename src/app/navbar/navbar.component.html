@@ -22,10 +22,11 @@
         </ul>
     </div>
     <div class="right">
-        <button [ngClass]="{'lightColor': !theme.getTheme(),'d-none':!checkStorage.checkStorage}" (click)="logOut()">
+        <button [ngClass]="{'lightColor': !theme.getTheme(),'d-none':checkStorage.checkStorage}" (click)="logOut()">
             Log Out
         </button>
-        <button [ngClass]="{'lightColor': !theme.getTheme()}" routerLink="/createacc">
+        <button [ngClass]="{'lightColor': !theme.getTheme(),'d-none':!checkStorage.checkStorage}"
+            routerLink="/createacc">
             Get Started
         </button>
     </div>
